@@ -1,0 +1,20 @@
+[class*="col-"] {
+    background-color: coral;
+    position: relative;
+    border: 1px solid black;
+}
+
+.container span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#box .container > * {
+    background-color: orangered;
+    border: 1px solid #fff;
+    height: 288px;
+    padding: 5px;
+}
